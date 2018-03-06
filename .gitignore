@@ -36,6 +36,7 @@ _site/
 
 # General
 # =======
+.directory
 *.log
 *.csv
 *.dat
@@ -79,4 +80,3 @@ mongod
 *.ntvs*
 *.njsproj
 *.sln
-.directory
