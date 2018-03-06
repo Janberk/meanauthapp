@@ -1,0 +1,111 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @Janberk
+ Sign out
+352
+4,502 1,815 meanjs/mean
+ Code  Issues 110  Pull requests 9  Projects 2  Wiki  Insights
+mean/.gitignore
+d47dd41  on Oct 29, 2016
+@shanavas786 shanavas786 feat(build): Ignore compiled sass/less files from git (#1592)
+@lirantal @amoshaviv @mleanos @fyockm @sylvainlap @simison @jloveland @ilanbiala @shanavas786 @rudijs @hyperreality @androidfred @cdriscol
+
+82 lines (71 sloc)  997 Bytes
+# OS
+# ===========
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Node and related ecosystem
+# ==========================
+.nodemonignore
+.sass-cache/
+node_modules/
+public/lib/
+app/tests/coverage/
+.bower-*/
+.idea/
+coverage/
+.coveralls.yml
+
+# MEAN.js app and assets
+# ======================
+public/dist/
+uploads
+modules/users/client/img/profile/uploads
+config/env/local.js
+config/env/local-*.js
+*.pem
+
+# Compiled less and sass files
+# ============================
+modules/*/client/scss/*.css
+modules/*/client/less/*.css
+
+# Ignoring MEAN.JS's gh-pages branch for documenation
+_site/
+
+# General
+# =======
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.tmp
+*.bak
+*.swp
+logs/
+build/
+
+# Sublime editor
+# ==============
+.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse project files
+# =====================
+.project
+.settings/
+.*.md.html
+.metadata
+*~.nib
+local.properties
+
+# IntelliJ
+# ========
+*.iml
+
+# Cloud9 IDE
+# =========
+.c9/
+data/
+mongod
+
+# Visual Studio
+# =========
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
