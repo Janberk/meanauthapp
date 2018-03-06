@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @Janberk
- Sign out
-352
-4,502 1,815 meanjs/mean
- Code  Issues 110  Pull requests 9  Projects 2  Wiki  Insights
-mean/.gitignore
-d47dd41  on Oct 29, 2016
-@shanavas786 shanavas786 feat(build): Ignore compiled sass/less files from git (#1592)
-@lirantal @amoshaviv @mleanos @fyockm @sylvainlap @simison @jloveland @ilanbiala @shanavas786 @rudijs @hyperreality @androidfred @cdriscol
-
-82 lines (71 sloc)  997 Bytes
 # OS
 # ===========
 .DS_Store
@@ -97,15 +79,3 @@ mongod
 *.ntvs*
 *.njsproj
 *.sln
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
